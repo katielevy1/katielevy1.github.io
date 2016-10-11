@@ -1,6 +1,19 @@
 .active {
     color: green;
 }
+.header {
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+.nav>li>a {
+    color: lightblue;
+}
+.name {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: lightblue;
+    text-shadow: 2px 2px black;
+}
 .navBar {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
@@ -15,5 +28,9 @@
     font-style: normal;
     line-height: 1em;
     color: rgba(255,255,255,.8);
+    margin-top: 20px;
     
+}
+home-wrapper > h1{
+    text-align: center;
 }
