@@ -1,18 +1,39 @@
+/*
+    tangerine #E37222
+    teal #07889B
+    powder #66B9BF
+    Tan #EEAA7B
+
+*/
+
 .active {
     color: green;
 }
 .header {
-    padding: 20px;
-    background-color: gray;
+    padding: 20px 40px;
+    background-color: #EEAA7B;
     margin-bottom: 10px;
 }
 .nav>li>a {
-    color: lightblue;
+    color: #fff;
+}
+.nav>li>a:hover {
+    color: #07889B;
+    background-color: #fff;
+}
+.nav-tabs>li.active> a {
+    color: #07889B;
+}
+.nav-tabs>li.active> a:hover {
+    color: #07889B;
 }
 .name {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: lightblue;
-    text-shadow: 2px 2px black;
+    color: #fff;
+    text-shadow: 2px 2px #66B9BF;
+    border: 3px solid #66B9BF;
+    padding: 10px 0px;
+    text-align: center;
 }
 .navBar {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -33,4 +54,33 @@
 }
 home-wrapper > h1{
     text-align: center;
+}
+.contactMe {
+    border-width: 10px;
+    border-color: black;
+    background-color: #66B9BF;
+    margin: 20px 40px;
+    border-radius: 5px;
+
+}
+.contactMe .container {
+        padding: 20px;
+        text-align: center;
+}
+.contactMe .container ul {
+       background-color: #07889B;
+       margin: auto;
+       padding: 20px;
+       border-radius: 5px;
+       width: 50%;
+}
+.contactMe .container ul > li {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
+.contactMe .container ul > li a{
+    color: #fff;
+    text-decoration: none;
 }
