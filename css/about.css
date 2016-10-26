@@ -1,0 +1,21 @@
+.about-wrapper {
+    background-image: url("../img/about-background.jpg");
+    padding: 40px;
+    overflow: hidden;
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+}
+.about-box {
+    float: left;
+    width: 50%;
+    background-color: gray;
+    background-blend-mode: darken;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.about-content {
+    margin: 50px;
+}

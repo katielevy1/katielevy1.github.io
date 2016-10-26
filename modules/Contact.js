@@ -10,7 +10,12 @@ export default React.createClass({
                 <ul>
                     <li>Email: X</li>
                     <li>Phone: X</li>
-                    <li>LinkedIn: <a href link="https://www.linkedin.com/in/katielevy1">My Profile</a></li>
+                    <br />
+                    <li>
+                    <a href="https://www.linkedin.com/pub/katie-levy/79/625/5a6">
+                        <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Katie Levy's profile on LinkedIn" />
+                    </a>
+                    </li>
                 </ul>
 
                 </div>
