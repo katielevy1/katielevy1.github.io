@@ -19,3 +19,9 @@
 .about-content {
     margin: 50px;
 }
+.about-content p {
+    font-size: 18px;
+}
+.about-content h1 {
+    margin-bottom: 25px;
+}

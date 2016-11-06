@@ -3,13 +3,13 @@ import React from 'react'
 export default React.createClass({
     render() {
         return (
+            <div className="blue-container">
             <div className="contactMe">
                 <div className="container">
                 <h1>Contact Me</h1>
                 <h3>Feel free to directly reach out to me with any questions or job opportunities</h3>
                 <ul>
-                    <li>Email: X</li>
-                    <li>Phone: X</li>
+                    <li>Email: <a href="mailto:klevy@sandiego.edu">klevy@sandiego.edu</a></li>
                     <br />
                     <li>
                     <a href="https://www.linkedin.com/pub/katie-levy/79/625/5a6">
@@ -19,6 +19,7 @@ export default React.createClass({
                 </ul>
 
                 </div>
+            </div>
             </div>
         )
     }

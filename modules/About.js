@@ -11,7 +11,7 @@ export default React.createClass({
                     <p>I am a highly dedicated and motivated individual, driven to make a difference in the world. 
                     Outside of my professional and academic life, I love to enjoy my time outdoors, especially at the beach with friends!</p>
                     <p>I am a senior at University of San Diego majoring in Computer Science with minors in Business Administration and Marketing. 
-                    I am seeking a full time job for after my graduation in May 2016 as a Software Engineer.</p>
+                    I am seeking a full time job for after my graduation in May 2017 as a Software Engineer.</p>
                     </div>
                 </div>
             </div>

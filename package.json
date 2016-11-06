@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pdfjs-dist": "1.5.222",
     "react": "^0.14.7",
     "react-bootstrap": "^0.30.5",
     "react-dom": "^0.14.7",

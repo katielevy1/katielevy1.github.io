@@ -23,9 +23,6 @@ export default React.createClass({
             <LinkContainer to="/about">
               <NavItem eventKey={3}>About</NavItem>
             </LinkContainer>
-            <LinkContainer to="/repos">
-              <NavItem eventKey={4}>Portfolio</NavItem>
-            </LinkContainer>
             <LinkContainer to="/contact">
               <NavItem eventKey={5}>Contact</NavItem>
             </LinkContainer>

@@ -54,14 +54,6 @@
 home-wrapper > h1{
     text-align: center;
 }
-.contactMe {
-    border-width: 10px;
-    border-color: black;
-    background-color: #66B9BF;
-    margin: 20px 40px;
-    border-radius: 5px;
-
-}
 .contactMe .container {
         padding: 20px;
         text-align: center;
@@ -72,6 +64,7 @@ home-wrapper > h1{
        padding: 20px;
        border-radius: 5px;
        width: 50%;
+       margin-top: 50px;
 }
 .contactMe .container ul > li {
     color: #fff;
@@ -82,4 +75,21 @@ home-wrapper > h1{
 .contactMe .container ul > li a{
     color: #fff;
     text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.blue-container {
+    border-width: 10px;
+    border-color: black;
+    background-color: #66B9BF;
+    margin: 20px 40px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+.resume {
+    padding: 20px;
+    text-align: center;
 }
