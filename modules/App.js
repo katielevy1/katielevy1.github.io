@@ -7,13 +7,20 @@ import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 export default React.createClass({
   render() {
     return (
-      <div >
-      <div className="header row">
+      <div>
+      <div className="N">
+       
+<Navbar inverse collapseOnSelect>
+    <Navbar.Header>
+      <Navbar.Brand>
         <LinkContainer to="/">
-          <h1 className="name col-sm-3">Katie Levy</h1>
+          <h1 >Katie Levy </h1>
         </LinkContainer>
-        <div className="navBar col-sm-9">
-          <Nav bsStyle="tabs" pullRight={true}>
+      </Navbar.Brand>
+      <Navbar.Toggle />
+    </Navbar.Header>
+    <Navbar.Collapse>
+      <Nav pullRight>
             <IndexLinkContainer to="/">
               <NavItem eventKey={1}>Home</NavItem>
             </IndexLinkContainer>
@@ -24,10 +31,15 @@ export default React.createClass({
               <NavItem eventKey={3}>About</NavItem>
             </LinkContainer>
             <LinkContainer to="/contact">
-              <NavItem eventKey={5}>Contact</NavItem>
+              <NavItem eventKey={4}>Contact</NavItem>
             </LinkContainer>
-          </Nav>
-        </div>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
+
+
+
+
       </div>
       <div className="body">
         

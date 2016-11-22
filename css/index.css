@@ -6,25 +6,9 @@
 
 */
 
-.active {
-    color: green;
-}
 .header {
     padding: 20px 40px;
     background-color: #007FA2;
-}
-.nav>li>a {
-    color: #fff;
-}
-.nav>li>a:hover {
-    color: #07889B;
-    background-color: #fff;
-}
-.nav-tabs>li.active> a {
-    color: #07889B;
-}
-.nav-tabs>li.active> a:hover {
-    color: #07889B;
 }
 .name {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -34,7 +18,7 @@
     padding: 10px 0px;
     text-align: center;
 }
-.navBar {
+.navBar1 {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -50,6 +34,29 @@
     color: rgba(255,255,255,.8);
     margin-top: 20px;
     
+}
+.N .navbar-inverse {
+    background-color: #007FA2;
+    border: none;
+}
+.N .navbar:last-child {
+    margin-bottom: 0px;
+}
+.N .navbar-nav > li > a {
+    font-size: 16px;
+    color: #fff;
+}
+.N .navbar-nav > li >a:hover {
+    color: #07889B;
+    background-color: #fff;
+}
+.N .navbar-nav > li.active> a{
+    color: #07889B;
+    background-color: #fff;
+}
+.N .navbar-nav > li.active> a:hover {
+    color: #07889B;
+    background-color: #fff;
 }
 home-wrapper > h1{
     text-align: center;
