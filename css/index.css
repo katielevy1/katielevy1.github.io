@@ -24,7 +24,6 @@
     font-size: 14px;
     letter-spacing: 1px;
     font-family: "proxima-nova";
-    font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
@@ -33,11 +32,15 @@
     line-height: 1em;
     color: rgba(255,255,255,.8);
     margin-top: 20px;
-    
+}
+
+.N .navbar-nav {
+    margin: 0px -15px;
 }
 .N .navbar-inverse {
     background-color: #007FA2;
     border: none;
+    border-radius: 0;
 }
 .N .navbar:last-child {
     margin-bottom: 0px;
@@ -45,6 +48,14 @@
 .N .navbar-nav > li > a {
     font-size: 16px;
     color: #fff;
+    line-height: 40px;
+}
+@media (max-width: 768px) {
+    .N .navbar-nav > li > a{
+        font-size: 300%;
+        text-align: center;
+        line-height: 2em;
+    }   
 }
 .N .navbar-nav > li >a:hover {
     color: #07889B;
@@ -58,6 +69,20 @@
     color: #07889B;
     background-color: #fff;
 }
+.N .navbar-header h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+@media (max-width: 768px) {
+    .N .navbar-header h1 {
+        font-size: 300%;
+        margin-left: 20px;
+    }
+    .N .navbar{min-height: 90px;}
+    .N .navbar-header h1 {margin-top: 20px;}
+}
+
 home-wrapper > h1{
     text-align: center;
 }

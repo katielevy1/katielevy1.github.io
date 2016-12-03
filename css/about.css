@@ -25,3 +25,19 @@
 .about-content h1 {
     margin-bottom: 25px;
 }
+
+@media (max-width: 768px) {
+    .about-box {
+        width: 100%;
+        top: initial;
+        transform: initial;
+        position: initial;
+    }
+    .about-content p {
+        font-size: 200%;
+    }
+    .about-content h1 {
+        font-size: 300%;
+    }
+    .about-wrapper{min-height: 1200px;}
+}
